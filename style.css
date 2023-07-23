@@ -5,10 +5,30 @@ body {
   }
   
   header {
-    background-color: #3d0ff4;
+    background-image: url("tenor.gif");
+    
     padding: 20px;
     color: #fff;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .header-content img {
+    width: 150px; /* Set your desired width */
+    height: auto; /* Automatically adjusts height while maintaining aspect ratio */
+    margin-right: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+    margin: 0;
   }
   
   nav {
@@ -51,4 +71,81 @@ body {
     color: #fff;
     text-align: center;
   }
+  
+  .skill-badge-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-gap: 20px;
+  }
+  
+  .skill-badge {
+    text-align: center;
+    border: 1.5px solid blueviolet;
+    padding: 20px;
+  }
+  
+  .skill-badge img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .experience-section {
+    background-image: url("OIP (2).jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+
+  .edu-section {
+    background-image: url("OIP (3).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+
+  .certficate-section {
+    background-image: url("OIP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+
+  .skills-section {
+    background-image: url("qaZAdou.jpg");
+    background-color:azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+  .contact-section {
+    background-image: url("");
+    background-color:bisque;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+
+  .home-section {
+    background-image: url("OIP (3).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+
+  .project-section {
+    background-image: url("interactive-website-design-gif.gif");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:black; /* Set text color for better visibility */
+  }
+  
   
